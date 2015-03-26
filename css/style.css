@@ -1249,7 +1249,7 @@ span#pen {
 
 .themed1 {
 	color: white;
-	background-color: #1f3046;
+	background-color: #e14c36; 
 	font: arial;
 	font-weight: 800;
 }
@@ -1280,14 +1280,6 @@ ul.iconlogo {
 	margin-bottom: 100px;
 }
 
-
-/*li.center {
-	margin-top: 20px;
-
-}*/
-
-
-
-/*p.style2box {
-	font-size: 17px;
-}*/
+.logoicon {
+	width: 200px;
+}
