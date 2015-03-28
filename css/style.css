@@ -1291,19 +1291,25 @@ body#resumebody {
 	height: 100%;
 }
 
-.icon {
-	display: inline-block;
-	margin: 0 15px; 
-	position: relative; 
-	opacity: 0.7;
-}
-
 .title {
 	text-align: center;
 }
 
 img.img1 {
 	height: 70px; 
+	-webkit-filter: grayscale(1);
+}
+
+.icon {
+	display: inline-block;
+	margin: 0 15px; 
+	position: relative; 
+	opacity: 0.8; 
+}
+
+.icon:hover img {
+	-webkit-filter: grayscale(0);
+
 }
 
 p#email {
