@@ -2,11 +2,6 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('font-awesome.min.css');
 
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -955,7 +950,7 @@
 		overflow: hidden;
 	}
 
-		#contact .box {
+	/*	#contact .box {
 			position: relative;
 			bottom: 0;
 
@@ -978,7 +973,7 @@
 			#contact.inactive .box {
 				bottom: -30em;
 			}
-
+*/
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -1268,6 +1263,49 @@ span#pen {
 	background-color: rgb(253,245,214);
 }
 
+.themed4 {
+	color: white; 
+	font: arial;
+	font-weight: 800;
+	background-color: green;
+}
+
+.themed5 {
+	color: white;
+	font: arial;
+	font-weight: 800;
+	background-color: brown;
+}
+
+.themed6 {
+	color: white;
+	font: arial;
+	font-weight: 800;
+	background-color: blue;
+}
+
+.themed7 {
+	color: white;
+	font: arial;
+	font-weight: 800;
+	background-color: red;
+}
+
+.themed8 {
+	color: white;
+	font: arial;
+	font-weight: 800;
+	background-color: grey;
+}
+
+.themed9 {
+	color: yellow;
+	font: arial;
+	font-weight: 800;
+	background-color: blue;
+}
+
+
 li {
 	display: inline-block;
 }
@@ -1282,6 +1320,11 @@ ul.iconlogo {
 
 .logoicon {
 	width: 200px;
+    -webkit-transition-delay: 200ms;
+    -moz-transition-delay: 200ms;
+    -o-transition-delay: 200ms;
+    transition-delay: 200ms;
+
 }
 
 body#resumebody {
